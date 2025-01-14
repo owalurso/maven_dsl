@@ -1,4 +1,4 @@
-job('Java Maven App DSL') {
+job('Java_Maven_AppDSL') {
     description('Java Maven App con DSL para el curso de Jenkins')
     scm {
         git('https://github.com/owalurso/maven_dsl.git', 'main') { node ->
